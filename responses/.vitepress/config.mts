@@ -4,6 +4,7 @@ export default defineConfig(
     {
         title: "РОС",
         description: "1488",
+        base: "/ros/",
         lang: "ru-RU",
         themeConfig: {
             nav: [
