@@ -1,5 +1,5 @@
 import {defineConfig} from "vitepress"
 
 export default defineConfig(
-    {lang: "ru-RU", title: "РОС", themeConfig: {}}
+    {base: "/ros/", lang: "ru-RU", title: "РОС", themeConfig: {}}
 )
