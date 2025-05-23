@@ -2,15 +2,16 @@ import {defineConfig} from "vitepress"
 
 export default defineConfig(
     {
-        title: "РОС",
-        description: "1488",
+        title: "Нейронные сети",
         base: "/ros/",
         lang: "ru-RU",
         themeConfig: {
             nav: [
-                { text: "Домой", link: "/" },
-                { text: "Тест", link: "/test_responses" }
+                {text: "Домой", link: "/"},
             ],
+            outline: {
+                label: "Вопросы"
+            },
         }
     }
 )

@@ -1,3 +1,3 @@
 ```bash
-bun install --dev && bun run docs:dev
+bun install && bun run docs:dev
 ```
